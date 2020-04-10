@@ -1,12 +1,12 @@
 def square_array(array)
   # your code here
-  square_array = []
+  squared_array = []
   number = 0
   while array[number] do 
-    square_array << array[number]**2
-  number = number + 1
-  square_array
-end
+    squared_array << array[number]**2
+    number = number + 1
+    return squared_array
+  end
 end
 
 
