@@ -4,7 +4,6 @@ def square_array(array)
   number = 0
   while array[number] do 
     squared_array << array[number]**2
-  end
     number = number + 1
     return squared_array
 end
