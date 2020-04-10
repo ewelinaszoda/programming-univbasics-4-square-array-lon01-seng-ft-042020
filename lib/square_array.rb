@@ -10,9 +10,8 @@ def square_array(array)
 end
 
 
-def square_array(array)
-  # your code here	 
-  squared_array = []
-  array.each {|value| squared_array << value ** 2}
-  squared_array
-end
+#def square_array(array)
+  #squared_array = []
+  #array.each {|value| squared_array << value ** 2}
+  #squared_array
+#end
