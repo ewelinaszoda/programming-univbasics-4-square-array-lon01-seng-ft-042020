@@ -5,6 +5,7 @@ def square_array(array)
   while array[number] do 
     squared_array << array[number]**2
     number = number + 1
+  end 
     return squared_array
 end
 
